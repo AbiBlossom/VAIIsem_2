@@ -81,4 +81,4 @@
 
 
 </div>
-<script src="public/js/editProfile.js"></script>
+<script src="/public/js/editProfile.js"></script>

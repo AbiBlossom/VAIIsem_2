@@ -1,5 +1,5 @@
 <?php /** @var Array $data */ ?>
-<script src="public/js/loginForm.js"></script>
+<script src="/public/js/loginForm.js"></script>
 
 <div class="container">
     <div class="row">

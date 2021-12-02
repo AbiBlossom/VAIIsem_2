@@ -3,9 +3,9 @@
 namespace App\Controllers;
 
 use App\Auth;
-use App\Core\Model\Dog;
-use App\Core\Model\Login;
 use App\Core\Responses\Response;
+use App\Models\Dog;
+use App\Models\Login;
 
 
 class AuthController extends AControllerRedirect

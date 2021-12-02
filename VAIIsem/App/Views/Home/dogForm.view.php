@@ -1,4 +1,4 @@
-<script src="public/js/dogForm.js"></script>
+<script src="/public/js/dogForm.js"></script>
 
 <?php /** @var Array $data */ ?>
 

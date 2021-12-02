@@ -1,5 +1,5 @@
 <?php /** @var Array $data */ ?>
-<script src="public/js/registerForm.js"></script>
+<script src="/public/js/registerForm.js"></script>
 
 <div class="row justify-content-center" >
     <div class="col-md-6">
