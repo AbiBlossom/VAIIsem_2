@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-    <link href="public/css.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="public/css.css">
 
 
 </head>
@@ -31,7 +31,7 @@
     <?php if (\App\Auth::isLogged()) { ?>
         <p style="text-align: right; color: white">Vitaj <?php echo \App\Auth::getName() ?></p>
     <?php } ?>
-    <a class="nav-link active" aria-current="page" href="../VAII_sem/domov.html">Domov</a>
+    <a class="nav-link active" aria-current="page" href=#">Domov</a>
     <a href="#">Dobrovoľníctvo</a>
     <a href="#">Kontakty</a>
 </div>

@@ -4,8 +4,9 @@ namespace App\Controllers;
 
 use App\Auth;
 use App\Core\AControllerBase;
-use App\Core\Model\Dog;
-use App\Core\Model\Login;
+
+use App\Models\Dog;
+use App\Models\Login;
 
 
 /**
@@ -18,13 +19,8 @@ class HomeController extends AControllerRedirect
 
     public function index()
     {
-        $dogs = Dog::getAll();
-
-
         return $this->html(
-            [
-                'dogs' => $dogs
-            ]);
+            []);
     }
 
     public function mydogs()

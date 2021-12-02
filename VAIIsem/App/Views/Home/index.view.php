@@ -1,15 +1,19 @@
-<?php /** @var Array $data */ ?>
+<?php /** @var Array $data */
+
+use App\Models\Dog; ?>
 <div class="container">
     <div class="row">
         <div class="d-flex justify-content-start flex-wrap">
-            <?php foreach ($data['shelters'] as $shelter) { ?>
+            <?php foreach (Dog::getAll() as $dog) { ?>
                 <div class="card" style="width: 18rem; margin: 5px">
-                    <img src="<?= \App\Config\Configuration::UPLOAD_DIR . $shelter->getImage() ?>" class="card-img-top" alt="...">
+                    <img src="<?= \App\Config\Configuration::UPLOAD_DIR . $dog->getImage() ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <a href="?c=home&a=addLike&postid=<?= $shelter->getId() ?>" class="btn btn-primary">
-                            <?= $shelter->getLikes() ?>
-                            <i class="bi bi-hand-thumbs-up"></i>
-                        </a>
+                        <div>
+                            <?=$dog->getName() ?>
+                        </div>
+                        <div>
+                            <?=$dog->getText() ?>
+                        </div>
 
                     </div>
                 </div>

@@ -1,6 +1,9 @@
 <?php
 
-namespace App\Core\Model;
+
+namespace App\Models;
+
+use App\Core\Model;
 
 class Login extends \App\Core\Model
 {

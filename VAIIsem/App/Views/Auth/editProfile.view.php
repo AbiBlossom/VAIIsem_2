@@ -1,5 +1,5 @@
 <?php /** @var Array $data */ ?>
-<script src="public/js/editProfile.js"></script>
+
 <div class="main">
 
     <h4 style="text-align: left; font-size: larger">Môj účet:</h4>
@@ -81,3 +81,4 @@
 
 
 </div>
+<script src="public/js/editProfile.js"></script>
