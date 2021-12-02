@@ -68,12 +68,12 @@
                 </div>
 
                 <button class="btn btn-primary text-uppercase fw-bold" style="background-color:red; margin-top: 10px;display: unset" type="submit"
-                        onclick="return confirm('Ste si naozaj istý, že chcete zmazať svoj účet?');">
+                        onclick="return confirm('Cgcete naozaj zmazať svoj účet?');">
                     Potvrdiť
                 </button>
 
             </form>
-            <p>Pri zmazaní profilu budú zmazané aj všetky vaše ponuky! </p>
+
 
         <?php }} ?>
     <br>

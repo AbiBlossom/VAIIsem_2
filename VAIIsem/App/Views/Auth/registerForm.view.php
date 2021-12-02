@@ -36,7 +36,7 @@
                     <div class="form-group">
                         <button type="submit" id="submit" class="btn btn-primary btn-block"> Registrovať</button>
                     </div>
-                    <small class="text-muted">Kliknutím na tlačidlo 'Registrovať' potvrdzujete, že súhlasíte s podmienkami používania.</small>
+                    <small class="text-muted">Registráciou vyjadrujete súhlas s podmienkami používania.</small>
                 </form>
             </article>
             <div class="border-top card-body text-center">Už máte účet? <a href="?c=auth&a=loginForm">Prihláste sa.</a></div>
